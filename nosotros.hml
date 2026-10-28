@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosotros - League of Games</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="white z-depth-0">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo black-text">League of Games</a>
+      <ul class="right">
+        <li><a class="black-text" href="index.html">Inicio</a></li>
+        <li class="active"><a class="black-text" href="nosotros.html">Nosotros</a></li>
+        <li><a class="black-text" href="objetivos.html">Objetivos</a></li>
+        <li><a class="black-text" href="avances.html">Avances</a></li>
+        <li><a class="black-text" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <h4>Nosotros</h4>
+
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Misión</span>
+            <p>Reunir en un solo sitio los lobbies y servidores de videojuegos para que los jugadores encuentren partida rápido, viendo los cupos, el rango o modo y si es público o privado.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Visión</span>
+            <p>Ser el sitio al que los jugadores entran primero cuando quieren completar un equipo o buscar servidor, en vez de buscar en Discord y redes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h5>Integrantes</h5>
+
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-content center-align">
+            <i class="material-icons large">account_circle</i>
+            <span class="card-title">Miguel Angel Sanclemente Mejia</span>
+            <p>Rol: Dev</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-content center-align">
+            <i class="material-icons large">account_circle</i>
+            <span class="card-title">Rigoberto Ospina</span>
+            <p>Rol: Jefe Ejecutivo</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="card">
+          <div class="card-content center-align">
+            <i class="material-icons large">account_circle</i>
+            <span class="card-title">Jose Manuel Castaño Rojas</span>
+            <p>Rol: Community Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="page-footer white">
+    <div class="footer-copyright grey-text text-darken-2">
+      <div class="container grey-text text-darken-2">
+        League of Games - Proyecto Integrador I - Grupo 50 - Univalle Tuluá
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
