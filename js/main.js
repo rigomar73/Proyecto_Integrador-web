@@ -1,7 +1,7 @@
 // Esperar a que el DOM cargue completamente
 document.addEventListener('DOMContentLoaded', function() {
   
-  // 1. Mostrar mensaje de bienvenida con Toast (Requisito técnico)
+  // 1. Mostrar mensaje de bienvenida con Toast 
   // Verificamos si estamos en el index para que no salga en todas las páginas
   if (window.location.pathname.includes('index.html') || window.location.pathname === '/' || window.location.pathname === '') {
     M.toast({
