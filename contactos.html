@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - League of Games</title>
+  <!-- CDN de Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Tu hoja de estilos personalizada -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="z-depth-0">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo">League of Games</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="objetivos.html">Objetivos</a></li>
+        <li><a href="avances.html">Avances</a></li>
+        <li class="active"><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container" style="margin-top: 40px; margin-bottom: 60px;">
+    <h4 class="center-align">Contáctanos</h4>
+    
+    <div class="row">
+      <!-- Formulario de contacto con id para JS -->
+      <form class="col s12 m8 offset-m2" id="formulario-contacto">
+        
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="nombre" type="text" class="validate">
+            <label for="nombre">Nombre completo</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">email</i>
+            <input id="correo" type="email" class="validate">
+            <label for="correo">Correo electrónico</label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">mode_edit</i>
+            <textarea id="mensaje" class="materialize-textarea"></textarea>
+            <label for="mensaje">Tu mensaje</label>
+          </div>
+        </div>
+
+        <div class="center-align">
+          <button class="btn-large waves-effect waves-light" type="submit" name="action">
+            Enviar Mensaje
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container center-align">
+        League of Games - Proyecto Integrador I - Grupo 50 - Univalle Tuluá
+      </div>
+    </div>
+  </footer>
+
+  <!-- CDN de Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+  <!-- Tu archivo JS principal (aquí ya está la validación) -->
+  <script src="js/main.js"></script>
+</body>
+</html>

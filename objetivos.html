@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objetivos - League of Games</title>
+  <!-- CDN de Materialize CSS requeridos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra de navegación -->
+  <nav class="white z-depth-0">
+    <div class="nav-wrapper container">
+      <a href="index.html" class="brand-logo black-text">League of Games</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="black-text" href="index.html">Inicio</a></li>
+        <li><a class="black-text" href="nosotros.html">Nosotros</a></li>
+        <li class="active"><a class="black-text" href="objetivos.html">Objetivos</a></li>
+        <li><a class="black-text" href="avances.html">Avances</a></li>
+        <li><a class="black-text" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h4 class="center-align">Objetivos</h4>
+
+    <!-- Objetivo General con Card Horizontal -->
+    <h5 class="light">Objetivo General</h5>
+    <div class="card horizontal">
+      <div class="card-image valign-wrapper" style="padding: 20px; background-color: #f5f5f5;">
+        <i class="material-icons large black-text">flag</i>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>Desarrollar una plataforma web centralizada que permita a los jugadores de videojuegos encontrar y organizar partidas, lobbies y servidores de manera rápida, visualizando cupos y modalidades sin depender de múltiples redes sociales y foros externos.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Objetivos Específicos con Collapsible -->
+    <h5 class="light" style="margin-top: 40px;">Objetivos Específicos</h5>
+    <ul class="collapsible popout">
+      <li>
+        <div class="collapsible-header"><i class="material-icons">search</i>1. Búsqueda y filtrado eficiente</div>
+        <div class="collapsible-body"><span>Implementar un sistema de filtros para que los usuarios puedan buscar partidas por rango, modo de juego y tipo de servidor (público o privado).</span></div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">group_add</i>2. Gestión rápida de equipos</div>
+        <div class="collapsible-body"><span>Diseñar una interfaz clara que muestre los cupos disponibles en tiempo real, facilitando completar equipos rápidamente.</span></div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="material-icons">dashboard</i>3. Centralización de la comunidad</div>
+        <div class="collapsible-body"><span>Ofrecer una alternativa directa y estructurada para buscar servidores, reduciendo la dependencia de canales fragmentados en Discord u otras plataformas.</span></div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer white" style="margin-top: 60px;">
+    <div class="footer-copyright grey-text text-darken-2">
+      <div class="container grey-text text-darken-2 center-align">
+        League of Games - Proyecto Integrador I - Grupo 50 - Univalle Tuluá
+      </div>
+    </div>
+  </footer>
+
+  <!-- CDN de Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+  <!-- Interacción con JS (Inicialización del Collapsible) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.collapsible');
+      var instances = M.Collapsible.init(elems);
+    });
+  </script>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
