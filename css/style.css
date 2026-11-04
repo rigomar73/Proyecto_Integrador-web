@@ -1,0 +1,51 @@
+/* =========================================
+   Paleta de colores: Azul Oscuro y Dorado
+   ========================================= */
+
+/* 1. Personalización de la Barra de Navegación (Navbar) */
+nav, .page-footer {
+  background-color: #0A2540 !important; /* Azul oscuro elegante */
+}
+
+nav .brand-logo, nav ul a, .page-footer .footer-copyright {
+  color: #D4AF37 !important; /* Dorado clásico */
+  font-weight: bold;
+}
+
+nav ul a:hover {
+  background-color: rgba(212, 175, 55, 0.1) !important; /* Efecto hover sutil */
+}
+
+/* 2. Personalización de los Botones */
+.btn, .btn-large {
+  background-color: #D4AF37 !important; /* Fondo dorado */
+  color: #0A2540 !important; /* Texto azul oscuro */
+  font-weight: bold;
+  border-radius: 5px; /* Ajuste de borde */
+}
+
+.btn:hover, .btn-large:hover {
+  background-color: #f3c749 !important; /* Dorado más claro al pasar el mouse */
+}
+
+/* 3. Personalización de las Tarjetas (Cards) */
+.card {
+  border-bottom: 4px solid #D4AF37; /* Detalle dorado en la base */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+.card .card-title {
+  color: #0A2540; /* Títulos en azul oscuro */
+  font-weight: bold;
+}
+
+/* Ajustes generales de tipografía y fondo */
+body {
+  background-color: #f4f6f8; /* Un gris/azulado muy claro para el fondo */
+}
+
+h4, h5 {
+  color: #0A2540;
+  font-weight: bold;
+}
